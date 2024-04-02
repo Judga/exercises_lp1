@@ -16,7 +16,20 @@ public class Ejercicios {
      */
     public String ejercicio1(int num1, int num2) {
         // Implementar solución
-        return "";
+        if (num1>num2)
+         {
+            return "el numero mayor es: num1";
+            
+        }
+        else if (num2>num2) {
+            return "el numero mayor es: num2";
+            
+        }
+      else { 
+         return "Los dos números son iguales." ;
+      
+         }
+       
     }
     // ----------------------------------------------------------------------------------------
 
